@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <script> function my_button_click_handler()
+{
+alert('your form has been applied. We will contact you soon, Thanks...');
+}
+  </script>
+  <body>
+    <h1>We are Hiring !</h1>
+
+    <form enctype="text/plain" action="mailto:sidani40@gmail.com?subject=CV Form for Hiring" method="post">
+
+<table cellspacing="20">
+  <tr>
+    <td><label>Enter Your Name : </label></td>
+    <td><input type="text" name="his/her name" value=""><br></td>
+  </tr>
+
+  <tr>
+    <td><label>Enter Your Location : </label></td>
+    <td><input type="text" name="his/her location" value=""><br></td>
+  </tr>
+
+  <tr>
+    <td><label>Enter Your Email Adress : </label></td>
+    <td><input type="email" name="his/her email adress" value=""><br></td>
+  </tr>
+
+  <tr>
+    <td><label>Enter Your phone number : </label></td>
+    <td><input type="text" name="his/her phone number" value=""><br></td>
+  </tr>
+
+  <tr>
+    <td><label>Enter Your Age : </label></td>
+    <td><input type="date" name="his/her age" value=""><br></td>
+  </tr>
+
+  <tr>
+    <td><label>Tell us about yourself : </label></td>
+    <td><textarea name="his/her message" rows="10" cols="30"></textarea><br></td>
+  </tr>
+
+  <tr>
+    <td><label>Upload your CV here : </label></td>
+    <td><input type="file"  value=""><br></td>
+  </tr>
+
+  <tr>
+    <td><label></label></td>
+    <td><input type="submit" name="" onclick="my_button_click_handler();"><br></td>
+  </tr>
+
+</table>
+
+<a href="index.html">Back to homepage</a>
+    </form>
+  </body>
+</html>
